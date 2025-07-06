@@ -1,0 +1,25 @@
+
+> ✅ Save this as: `README.md`
+
+---
+
+## ✅ `.gitignore`
+
+```gitignore
+# Ignore Python cache and logs
+__pycache__/
+*.pyc
+*.log
+
+# Ignore Excel files
+*.xlsx
+*.xls
+
+# Ignore environment files
+.env
+
+# Ignore Selenium driver (if included)
+chromedriver.exe
+
+# Streamlit specific
+.streamlit/
