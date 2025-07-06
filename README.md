@@ -1,32 +1,41 @@
-# CBP ACE ADCVD Streamlit Automation App 🚀
+# 📦 CBP ACE ADCVD Streamlit Extraction App
 
-This Streamlit web app allows users to extract message-level details like Category, Product Name, Exporter, Case Number, etc., from the CBP ACE ADCVD Public Search Portal using just Message_IDs from an Excel file.
+This Streamlit app automates the extraction of key fields like Product Name, Country, Exporter, Case Number, and more from the [CBP ACE ADCVD Public Search Portal](https://trade.cbp.dhs.gov/ace/adcvd/adcvd-public/#) using `Message_ID`s from an Excel file.
+
+---
 
 ## ✅ Features
-- Upload Excel with Message_IDs
-- Automate data scraping using Selenium
-- Extract key fields using spaCy + regex
-- Preview and download results in Excel
 
-## 📦 Setup Locally
+- Upload Excel file with `Message_ID` column
+- Automates scraping using Selenium
+- Extracts:
+  - Category
+  - Effective Date
+  - Message Title & Body
+  - Product Name (via regex + NLP)
+  - Country (via spaCy)
+  - Exporter, Producer, Case Number, Cash Rate (via regex)
+- Preview extracted data in-app
+- Download results as an Excel file
 
-1. Clone this repo or download it
-2. Create a virtual environment and install dependencies:
-pip install -r requirements.txt
-streamlit run app.py
+---
 
-📁 Sample Input Format
-Your Excel file should contain:
+## 📁 Input Format
 
-A column named Message_ID
+Your input Excel file should have a column like this:
 
-✨ Demo
-🔧 Built With
+| Message_ID |
+|------------|
+| 2115402    |
+| 2110403    |
+| 2104441    |
 
-Python
+---
 
-Streamlit
+## 💻 Run Locally
 
-Selenium
+### 1. Clone this repo
 
-spaCy
+```bash
+git clone https://github.com/YOUR_USERNAME/cbp-ace-streamlit-app.git
+cd cbp-ace-streamlit-app
