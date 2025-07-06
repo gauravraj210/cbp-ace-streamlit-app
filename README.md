@@ -12,6 +12,21 @@ This Streamlit web app allows users to extract message-level details like Catego
 
 1. Clone this repo or download it
 2. Create a virtual environment and install dependencies:
-   ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+📁 Sample Input Format
+Your Excel file should contain:
+
+A column named Message_ID
+
+✨ Demo
+🔧 Built With
+
+Python
+
+Streamlit
+
+Selenium
+
+spaCy
