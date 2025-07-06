@@ -59,30 +59,3 @@ This tool is built for automating publicly accessible data. Please use responsib
 
 🙌 Author
 Made with ❤️ by Gaurav Rajole
-
----
-
-### 📄 `.gitignore`
-
-```gitignore
-# Byte-compiled / cache files
-__pycache__/
-*.pyc
-
-# Logs
-*.log
-
-# Excel files
-*.xlsx
-*.xls
-
-# Environment files
-.env
-
-# Selenium drivers
-chromedriver.exe
-
-# Streamlit hidden folder
-.streamlit/
-
-
