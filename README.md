@@ -39,3 +39,62 @@ Your input Excel file should have a column like this:
 ```bash
 git clone https://github.com/YOUR_USERNAME/cbp-ace-streamlit-app.git
 cd cbp-ace-streamlit-app
+
+2. Install dependencies
+bash
+Copy
+Edit
+pip install -r requirements.txt
+3. Run the app
+bash
+Copy
+Edit
+streamlit run app.py
+📦 Technologies Used
+🐍 Python 3
+
+🧠 spaCy (NLP)
+
+🔍 Selenium WebDriver
+
+📊 Streamlit
+
+🧾 Regex
+
+📄 Excel + Pandas
+
+⚠️ Disclaimer
+This tool is built for automating publicly accessible data. Please use responsibly and ensure compliance with website terms of use.
+
+🙌 Author
+Made with ❤️ by Gaurav Rajole
+
+yaml
+Copy
+Edit
+
+---
+
+### 📄 `.gitignore`
+
+```gitignore
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Excel files
+*.xlsx
+*.xls
+
+# Environment files
+.env
+
+# Selenium drivers
+chromedriver.exe
+
+# Streamlit hidden folder
+.streamlit/
+
