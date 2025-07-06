@@ -1,8 +1,13 @@
+# Selenium-related
+selenium
+undetected-chromedriver
+
+# Streamlit
 streamlit
 pandas
-selenium
 spacy
 openpyxl
 xlrd
-# English spaCy model
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
+
+# Headless browser setup
+pyvirtualdisplay
